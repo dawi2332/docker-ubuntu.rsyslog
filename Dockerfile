@@ -10,4 +10,4 @@ COPY assets/etc/papertrail-bundle.pem /etc/papertrail-bundle.pem
 
 COPY init.d /docker-entrypoint-init.d
 
-ONBUILD COPY assets/etc/supervisor /etc/supervisor
+COPY assets/etc/supervisor /etc/supervisor
